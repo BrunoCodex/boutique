@@ -1,0 +1,77 @@
+body
+{
+	background: url("img/fondo.png");
+	color: #EEE;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+}
+header h1
+{
+	 margin: 1em 0 1em 1em;
+	 text-shadow: rgba(255,255,255,0.5) 5px 5px 10px;
+}
+nav
+{
+	background: rgba(139, 151, 192, 0.5);
+	bottom: 0;
+	color: #838FA2;
+	font-size: 1.5em;
+	left: 0;
+	padding: 1em 0;
+	width: 100%;
+}
+nav ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+nav li
+{
+	display: inline-block;
+}
+nav li a
+{
+	background: #4249DF;
+	border-radius: 0.5em;
+	color: white;
+	display: inline-block;
+	margin: 0 1em 0 0;
+	padding: 0.5em 1em;
+	text-decoration: none;
+	trasition: all 1s ease;
+	-webkit-transition: all 0.2s ease;
+} 
+nav li a:hover
+{
+	background: #fff;
+	color: black;
+	transform: scale(1.2) rotate(5deg);
+	-webkit-transform: scale(1.2) rotate(5deg);
+}
+#baner
+{
+	width: 60%;
+}
+#baner img
+{
+	border-radius: 2em;
+	margin: 3em 0 0em;
+	width: 100%;
+}
+#baner, #menu2
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#menu2
+{
+	background: rgba(0,0,0,0.6);
+	border-radius: 1em 0 0em;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+	margin: 0 0 3em 5em;
+	padding: 1em;
+	text-align: left;
+	width: 20%;
+}
